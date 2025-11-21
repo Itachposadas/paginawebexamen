@@ -1,0 +1,98 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+/* NAV */
+nav {
+    background-color: #55a412;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 40px;
+}
+
+.logo {
+    display: flex;
+    align-items: center;
+    color: white;
+}
+
+.logo-img {
+    width: 120px;
+    height: 70px;
+    margin-right: 10px;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+}
+
+nav li {
+    margin: 0 30px;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+    font-size: 18px;
+    padding: 8px 12px;
+}
+
+nav a:hover,
+nav a.active {
+    background-color: #004d26;
+    border-radius: 5px;
+}
+
+/* MAIN */
+main {
+    padding: 50px 80px;
+    background-color: #f3f3f3;
+}
+
+main h2 {
+    color: #55a412;
+    font-size: 32px;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+main p {
+    font-size: 18px;
+    margin-bottom: 20px;
+    text-align: justify;
+}
+
+section ul {
+    font-size: 18px;
+    margin-bottom: 20px;
+    line-height: 1.6;
+    list-style: disc;
+    padding-left: 20px;
+}
+
+.calendario-img {
+    display: block;
+    margin: 20px auto;
+    max-width: 100%;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.2);
+}
+
+
+footer {
+    text-align: center;
+    padding: 20px;
+    background-color: #55a412;
+    color: white;
+    margin-top: 40px;
+}
+
+footer p {
+    margin-bottom: 8px;
+    font-size: 16px;
+}
